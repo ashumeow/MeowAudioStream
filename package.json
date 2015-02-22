@@ -1,0 +1,17 @@
+{
+  "name": "MeowAudioStream",
+  "version": "v1.0.0",
+  "description": "MeowAudioStream is a Javascript Library where audio is loaded and streamed faster.",
+  "license": "MIT License",
+  "repository": "ashumeow/MeowAudioStream",
+  "author": {
+    "name": "Aswini S",
+    "github": "ashumeow",
+    "twitter": "@ashumeow",
+    "email": "ashumeow@live.com",
+    "url": "http://windowsgeekpro.in"
+  },
+  "files": [
+    "MeowAudio.js"
+  ]
+}
