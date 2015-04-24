@@ -7,39 +7,46 @@
 <div class ="container">
 <div class='row'>
 <div class='col-row'>
-<h1>ashumeow</h1>
-<h3 id='id'>Grant access</h3>
-<h3 id='connection'>No Peer Audio connection</h3>
-<i>Tip: Use headphones...</i>
+<h1>Meow Audio Fast Streaming</h1>
+<h3 id='id'>Access granted to anyone</h3>
+<h3 id='connection'>No Plugins Required</h3>
+<i>Tip: Access from any device or any web browser</i>
 </div>
 <div class='col-row'>
 <h3>Search for an audio (disabled)</h3>
 <input type='text' placeholder='PeerID' id='text'>
 <button class="primary-button" id='call-button'>Search</button>
 <br><br>
+<!--
 <h4>Your audio</h4>
 <audio controls>
-<!-- add mp3 music
+<! add mp3 music
 here is an example
 <source src="wreckingball.mp3" type="audio/mpeg">
--->
 </audio>
-<h4>Peer audio</h4>
+-->
+<h4>Peer audio (Enabled... Enjoy!)</h4>
+<b><i>Miley Cyrus - Wrecking Ball</i> (^_^) </b><br>
 <audio controls id='peer-audio'>
-<!-- add mp3 music
-here is an example
-<source src="wreckingball.mp3" type="audio/mpeg">
--->
-</audio>
+<source src="wreckingball.mp3" type="audio/mpeg" artist="Miley Cyrus" track="wrecking ball" year="2013">
+</audio> <br> <br>
+<b><i>Twenty one pilots - Friend Please</i> (^_^) </b> <br>
+<audio controls id='peer-audio'>
+<source src="friendplease.mp3" type="audio/mpeg" artist="twenty one pilots" track="friend please" year="unknown">
+</audio> <br>
+<b><i>Celldweller - Eon</i> (^_^) </b> <br>
+<audio controls id='peer-audio'>
+<source src="celldweller.mp3" type="audio/mpeg" artist="Eon" track="celldweller" year="unknown">
+</audio> 
 </div> </div>
 <div class='row'>
 <div class='col-row2'>
 <form id='audio-format'>
-<h4>Artist</h4>
+<h4>Artist (disabled)</h4>
 <input type='text' name='artist' placeholder='artist'>
-<h4>Track</h4>
+<h4>Track (disabled)</h4>
 <input type='text' name='track' placeholder='track'>
-<h4>Year</h4>
+<h4>Year (disabled)</h4>
 <input type='text' name='year' placeholder='year'>
 <input type='submit'>
 </form>
